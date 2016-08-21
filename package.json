@@ -8,8 +8,8 @@
   },
   "dependencies": {
     "asn1": "^0.2.3",
-    "oer-utils": "^1.2.0",
-    "tweetnacl": "^0.14.1"
+    "chloride": "^2.2.2",
+    "oer-utils": "^1.2.0"
   },
   "devDependencies": {
     "babel-plugin-transform-runtime": "^6.7.5",
@@ -76,8 +76,5 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  },
-  "optionalDependencies": {
-    "ed25519": "0.0.4"
   }
 }
